@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DPD</title>
+        <link rel="stylesheet" href="./style.css">
+
+    </head>
+
+    <body>
+        
+
+        <div class="navbar">
+            <p>DIGITAL PERSONAL <span>DIARY</span></p>
+        </div>
+
+        <div class='container'>
+            <div class="box-container">
+                <h2 class="date-day">25-10-2004</h2>
+                <h2 class="time">9.45AM</h2>
+                <p class="memory">Its my birthday. the one only day your parents laugh at you , when you cry!!!!!! </p><br>
+                <button id="del" onclick="deleteitems(event)">Delete</button>
+            </div>
+        </div>
+
+        <div class="pop-overlay"></div>
+        <div class="pop-box">
+            <h2>Add your memory</h2>
+            <form>
+                <input id="date-day" placeholder="Date and day">
+                <input id="time" placeholder="Time">
+                <textarea id="memory" placeholder="Short description"></textarea>
+                <button id="addtoweb">Add</button>
+                <button id="deletetoweb">Delete</button>
+
+            </form>
+        </div>
+
+        <button class="btn" id="add">+</button>
+        <script src="./script.js"></script>
+    </body>
+</html>
